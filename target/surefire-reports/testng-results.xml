@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104006" started-at="2019-10-30T17:09:23Z" finished-at="2019-10-30T17:11:07Z">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="104006" started-at="2019-10-30T17:09:23Z" finished-at="2019-10-30T17:11:07Z">
+      <class name="com.qa.testcases.AmazonAddToCartTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.AmazonAddToCartTest@61f3fbb8]" name="setUp" is-config="true" duration-ms="17592" started-at="2019-10-30T22:39:23Z" finished-at="2019-10-30T22:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="t001_verifyUserIsOnHomePage()[pri:1, instance:com.qa.testcases.AmazonAddToCartTest@61f3fbb8]" name="t001_verifyUserIsOnHomePage" duration-ms="11" started-at="2019-10-30T22:39:41Z" description=" Verifying user landed on Amazon Home Page" finished-at="2019-10-30T22:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t001_verifyUserIsOnHomePage -->
+        <test-method status="PASS" signature="t002_searchProduct()[pri:2, instance:com.qa.testcases.AmazonAddToCartTest@61f3fbb8]" name="t002_searchProduct" duration-ms="11703" started-at="2019-10-30T22:39:41Z" description="Verifying if some Best seller product available in search result" depends-on-methods="com.qa.testcases.AmazonAddToCartTest.t001_verifyUserIsOnHomePage" finished-at="2019-10-30T22:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t002_searchProduct -->
+        <test-method status="PASS" signature="t003_addProductToCart()[pri:3, instance:com.qa.testcases.AmazonAddToCartTest@61f3fbb8]" name="t003_addProductToCart" duration-ms="73468" started-at="2019-10-30T22:39:53Z" description="Adding Product with Best seller badge to cart" depends-on-methods="com.qa.testcases.AmazonAddToCartTest.t002_searchProduct" finished-at="2019-10-30T22:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t003_addProductToCart -->
+        <test-method status="PASS" signature="closeSetUp()[pri:0, instance:com.qa.testcases.AmazonAddToCartTest@61f3fbb8]" name="closeSetUp" is-config="true" duration-ms="1210" started-at="2019-10-30T22:41:06Z" finished-at="2019-10-30T22:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUp -->
+      </class> <!-- com.qa.testcases.AmazonAddToCartTest -->
+    </test> <!-- Testing -->
+  </suite> <!-- Suite -->
+</testng-results>

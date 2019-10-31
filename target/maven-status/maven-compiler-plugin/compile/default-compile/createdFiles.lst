@@ -1,0 +1,4 @@
+com\qa\util\TestUtil.class
+com\qa\pages\AmazonHomePage.class
+com\qa\pages\AmazonProductDetailPage.class
+com\qa\base\TestBase.class
